@@ -12,6 +12,7 @@
 body {
     margin: 0px;
     background-color: rgb(144, 228, 247);
+    
 
 }
  
@@ -42,6 +43,7 @@ body {
     position: relative;
     box-shadow: -5px 25px 10px 6px rgb(91, 200, 224) ;
     border-right: 4px solid rgb(255, 255, 197);
+    z-index: 1;
 
 }
 
@@ -81,6 +83,7 @@ ul {
     right: 0px;
     padding: 0%;
     box-shadow: 4px 0px 0px 0px rgb(255, 255, 197);
+    z-index: 1;
 
 }
 
@@ -162,3 +165,144 @@ hr {
 .text:focus {
     border: 2px solid yellow;
 }
+
+/* pop up options menu */
+
+#optionMenu {
+    height: 120px;
+    width: 300px;
+    background-color: tan;
+    border-radius: 20px;
+      position: relative;
+    z-index: 2;
+   margin: auto;
+   bottom: 300px;
+   display: none;
+}
+
+#exitOption {
+    margin: 10px 90%;
+}
+
+.exitBtn {
+   
+    position: relative;
+    z-index: 2;
+    width: 20px;
+    height: 18px;
+    padding-top: 2px;
+    background-color: tan;
+    border: none;
+    color: rgb(78, 63, 63);
+    
+}
+
+.exitBtn:hover {
+    background-color: rgb(211, 192, 168);
+
+}
+.menuBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    margin-right: 2px;
+
+    
+}
+
+.menuBtn:hover {
+    opacity: .75;
+
+}
+
+#editBtn{
+    margin-left: 22%;
+
+}
+
+.menuBtnLabel {
+    padding: 2px;
+    margin-left: 3%;
+    
+}
+
+#menuBtnLbl {
+    margin-left: 26%;
+    margin-right: 1%;
+}
+
+/* settings menu pop up */
+
+h3 {
+    width: 80%;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+#settingMenu {
+    width: 300px;
+    height: 350px;
+    background-color: tan;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    margin: auto;
+    bottom: 450px;
+    display: none;
+}
+
+.colorInput {
+    margin-top: 5px;
+    margin-right: 20px;
+background-color: rgb(183, 148, 103);
+
+    
+}
+
+.settingsOptions {
+    margin-left: 65px;
+    
+
+}
+
+#backgroundColor {
+    margin-left: 8%;
+}
+
+#topOfNotepad, #settingsButton,  #notepadLine {
+    margin-left: 2%;
+}
+ #firstLine {
+    margin-left: 15%;
+ }
+
+ #textColor {
+    margin-left: 25%;
+ }
+ 
+ #notepadPage {
+    margin-left: 3%;
+ }
+
+ #exitSettings {
+    bottom: 50px;
+    left: 270px;
+ }
+
+ #default {
+    margin-left: 32%;
+ }
+ 
+ #default, #save {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(183, 148, 103);
+ }
+
+ #default:hover, #save:hover {
+    opacity: .75;
+  }
+
