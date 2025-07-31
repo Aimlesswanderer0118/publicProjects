@@ -2,7 +2,7 @@
 
 /** Goggle font **/
 
-.dancing-script-<uniquifier> {
+.dancing-script-<uniquifier > {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -10,299 +10,434 @@
 }
 
 body {
-    margin: 0px;
-    background-color: rgb(144, 228, 247);
-    
-
+  margin: 0px;
+  background-color: rgb(144, 228, 247);
 }
- 
+
+/* 
+
+General page styles 
+
+class. button 
+
+*/
+
+.button {
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  opacity: 0.75;
+}
+
+
+
 /** styling for Desktop and Laptops **/
 
 /** styling wrappers **/
 
 #top-note-book {
-    width: 350px;
-    height: 50px;
-    margin: 100px auto 0px auto;
-    background-color: tan;
-    font-size: 30px;
-    padding-left: 4px;
-    position: relative;
-    border-right: 4px solid rgb(202, 182, 156);
-    box-shadow: -5px 25px 10px 6px rgb(91, 200, 224);
-    
+  width: 350px;
+  height: 50px;
+  margin: 100px auto 0px auto;
+  background-color: tan;
+  font-size: 30px;
+  padding-left: 4px;
+  position: relative;
+  border-right: 4px solid rgb(202, 182, 156);
+  box-shadow: -5px 25px 10px 6px rgb(91, 200, 224);
 }
 
 #note-book-body {
-    background-color: rgb(78, 63, 63);
-    display: block;
-    width: 350px;
-    height: 450px;
-    margin: auto;
-    padding: 0px;
-    position: relative;
-    box-shadow: -5px 25px 10px 6px rgb(91, 200, 224) ;
-    border-right: 4px solid rgb(255, 255, 197);
-    z-index: 1;
-
+  background-color: rgb(78, 63, 63);
+  display: block;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  padding: 0px;
+  position: relative;
+  box-shadow: -5px 25px 10px 6px rgb(91, 200, 224);
+  border-right: 4px solid rgb(255, 255, 197);
+  z-index: 1;
 }
 
 /** styling text **/
 
 h2 {
-    font-weight: 100;
-    color: gray;
-    margin: 0px;
-    height: 70px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    box-sizing: border-box;
-    width:350px;
-    background-color: rgb(255, 255, 169);
-    text-align: center;
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    box-shadow: 4px -1px 0px 0px rgb(255, 255, 197);
-    font-family: cursive;
-    border-bottom: 2px solid skyblue;
- 
-
+  font-weight: 100;
+  color: gray;
+  margin: 0px;
+  height: 70px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  width: 350px;
+  background-color: rgb(255, 255, 169);
+  text-align: center;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  box-shadow: 4px -1px 0px 0px rgb(255, 255, 197);
+  font-family: cursive;
+  border-bottom: 2px solid skyblue;
 }
 
 /** styling lists **/
 
 ul {
-    background-color: rgb(255, 255, 169);
-    list-style: none;
-    margin: 0px auto;
-    position:relative;
-    width: 350px;
-    height: 400px;
-    left: 0px;
-    right: 0px;
-    padding: 0%;
-    box-shadow: 4px 0px 0px 0px rgb(255, 255, 197);
-    z-index: 1;
-
+  background-color: rgb(255, 255, 169);
+  list-style: none;
+  margin: 0px auto;
+  position: relative;
+  width: 350px;
+  height: 400px;
+  left: 0px;
+  right: 0px;
+  padding: 0%;
+  box-shadow: 4px 0px 0px 0px rgb(255, 255, 197);
+  z-index: 1;
 }
 
 /** styling icons **/
 
 #menu {
-    position: relative;
-    float: right; 
-    padding: 10px 10px 10px 0px;
-    color: rgb(183, 148, 103);
-    height: 25px;
-    width: 25px;
-  
- 
+  position: relative;
+  float: right;
+  padding: 10px 10px 10px 0px;
+  color: rgb(183, 148, 103);
+  height: 25px;
+  width: 25px;
 }
-
 
 .can {
-    background-color: lightcoral;
-    padding: 6px 10px 6px 10px;
-    position: absolute;
-    float: right; 
-    color: white;
-    box-sizing: content-box;
-    opacity: 0;
+  background-color: lightcoral;
+  padding: 6px 10px 6px 10px;
+  position: absolute;
+  float: right;
+  color: white;
+  box-sizing: content-box;
+  opacity: 0;
 }
 
-.can:hover  {
-    position:absolute;
-    opacity: 1;
-    float: right;
- 
+.can:hover {
+  position: absolute;
+  opacity: 1;
+  float: right;
 }
 
 hr {
-    padding: 0px;
-    margin: 0px;
-    border-bottom: 1px solid lightgray;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 1px solid lightgray;
 }
 
 /** Styling inputs **/
 
 .visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 .box {
-    opacity: 0;
+  opacity: 0;
 }
 
-.box, .visible {
-    padding: 10px 10px;
-    float: left;
-    margin: 10px 10px;
-    position: absolute;
-    background-color: rgb(255, 255, 169);
-    
-
+.box,
+.visible {
+  padding: 10px 10px;
+  float: left;
+  margin: 10px 10px;
+  position: absolute;
+  background-color: rgb(255, 255, 169);
 }
 
 .text {
-    height: 30px;
-    width:316px;
-    border: 0px;
-    padding: 0px 0px 0px 30px;
-    margin: 0px;
-    position: clear;
-    margin: 0px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 169);
-    font-family: cursive;
-    color: gray;
-    font-weight: 100;
-    font-size: medium;
-
- 
+  height: 30px;
+  width: 316px;
+  border: 0px;
+  padding: 0px 0px 0px 30px;
+  margin: 0px;
+  position: clear;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 169);
+  font-family: cursive;
+  color: gray;
+  font-weight: 100;
+  font-size: medium;
 }
 
 .text:focus {
-    border: 2px solid yellow;
+  border: 2px solid yellow;
 }
 
-/* pop up options menu */
+/* 
+Pop up menu general 
 
-#optionMenu {
-    height: 120px;
-    width: 300px;
-    background-color: tan;
-    border-radius: 20px;
-      position: relative;
-    z-index: 2;
-   margin: auto;
-   bottom: 300px;
-   display: none;
+class. popUpMenu popUp
+
+*/
+
+.popUpMenu {
+  width: 300px;
+  background-color: tan;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  bottom: 450px;
+}
+
+.popUp {
+  display: none;
+}
+
+
+/* 
+
+pop up edit list items menu 
+
+class. exitBtn menuBtn menuBtnLabel
+
+id# editListItems exitOption editBtn menuBtnLbl
+
+*/
+
+
+#editListItems {
+  height: 120px;
+  width: 300px;
+  background-color: tan;
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+
 }
 
 #exitOption {
-    margin: 10px 90%;
+  margin: 10px 90%;
 }
 
 .exitBtn {
-   
-    position: relative;
-    z-index: 2;
-    width: 20px;
-    height: 18px;
-    padding-top: 2px;
-    background-color: tan;
-    border: none;
-    color: rgb(78, 63, 63);
-    
+  position: relative;
+  z-index: 2;
+  width: 20px;
+  height: 18px;
+  padding-top: 2px;
+  background-color: tan;
+  border: none;
+  color: rgb(78, 63, 63);
+  left: 275px;
+  bottom: 45px;
 }
 
 .exitBtn:hover {
-    background-color: rgb(211, 192, 168);
-
+  background-color: rgb(211, 192, 168);
 }
+
 .menuBtn {
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    border: none;
-    font-size: 30px;
-    margin-right: 2px;
-
-    
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  margin-right: 2px;
 }
 
-.menuBtn:hover {
-    opacity: .75;
-
-}
-
-#editBtn{
-    margin-left: 22%;
-
+#editBtn {
+  margin-left: 22%;
 }
 
 .menuBtnLabel {
-    padding: 2px;
-    margin-left: 3%;
-    
+  padding: 2px;
+  margin-left: 3%;
 }
 
 #menuBtnLbl {
-    margin-left: 26%;
-    margin-right: 1%;
+  margin-left: 26%;
+  margin-right: 1%;
 }
 
-/* settings menu pop up */
+
+/*
+
+settings menu pop up 
+
+elements h3
+
+class. colorInput settingOptions
+
+id# settingMenu  backgroundColor topOfNotepad settingsButton notepadLine 
+firstLine textColor notepadPage exitSettings defualt
+
+*/
+
 
 h3 {
-    width: 80%;
-    margin-left: auto;
-    padding-top: 15px;
-    margin-bottom: 20px;
+  width: 80%;
+  margin-left: 25%;
+  padding-top: 15px;
+  margin-bottom: 20px;
 }
 
 #settingMenu {
-    width: 300px;
-    height: 350px;
-    background-color: tan;
-    position: relative;
-    z-index: 2;
-    border-radius: 10px;
-    margin: auto;
-    bottom: 450px;
-    display: none;
+  height: 350px;
+
 }
 
 .colorInput {
-    margin-top: 5px;
-    margin-right: 20px;
-background-color: rgb(183, 148, 103);
-
-    
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
 .settingsOptions {
-    margin-left: 65px;
+  margin-left: 65px;
+}
+
+#backgroundColor {
+  margin-left: 8%;
+}
+
+#topOfNotepad,
+#settingsButton,
+#notepadLine {
+  margin-left: 2%;
+}
+
+#firstLine {
+  margin-left: 15%;
+}
+
+#textColor {
+  margin-left: 25%;
+}
+
+#notepadPage {
+  margin-left: 3%;
+}
+
+#exitSettings {
+  bottom: 50px;
+  left: 270px;
+}
+
+#default {
+  margin-left: 34%;
+}
+
+
+/* 
+
+Reminder menu 
+
+class. time
+
+id# reminderMenu setRemind reminderExit setStart setEnd repeat
+
+*/
+
+
+#reminderMenu {
+  height: 200px;
+
+}
+
+#setRemind {
+  position: relative;
+  margin-left: 95px;
+}
+
+#reminderExit {
+  position: relative;
+  left: 275px;
+  bottom: 45px;
+}
+
+#setStart {
+  position: relative;
+  right: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.time {
+  padding-left: 7px;
+}
+
+#setEnd {
+  margin-left: 10px;
+}
+
+#setStart,
+#setEnd {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#repeat {
+  margin-left: 65px;
+}
+
+
+/* 
+
+Repeat options pop up menu 
+
+class. dayOdTheWeek .green
+
+id# repeatMenu numbers sun
+
+*/
+
+
+#repeatMenu {
+  height: 400px;
+}
+
+#numbers {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#numbers:focus {
+    outline: none;
+}
+
+#weekMonthYear {
+    position: relative;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    bottom: 2px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-left:5px;
     
 
 }
 
-#backgroundColor {
-    margin-left: 8%;
-}
-
-#topOfNotepad, #settingsButton,  #notepadLine {
-    margin-left: 2%;
-}
- #firstLine {
-    margin-left: 15%;
- }
-
- #textColor {
-    margin-left: 25%;
- }
- 
- #notepadPage {
-    margin-left: 3%;
- }
-
- #exitSettings {
-    bottom: 50px;
-    left: 270px;
- }
-
- #default {
-    margin-left: 32%;
- }
- 
- #default, #save {
-    border-radius: 20px;
+.dayOfTheWeek {
+    border-radius: 50px;
     border: none;
-    background-color: rgb(183, 148, 103);
- }
+    height: 35px;
+    width: 35px;
+    margin-bottom: 20px;
+    
+    
+}
 
- #default:hover, #save:hover {
-    opacity: .75;
-  }
+.green {
+    background-color: lightgreen;
+}
 
+#sun {
+    margin-left: 15PX;
+}
